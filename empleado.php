@@ -1,6 +1,6 @@
 <?php
 $usuario = "root";
-	$servidor = "db";
+	$servidor = "localhost";
 	$basededatos = "proyectophp";
 		
 	$conexion = mysqli_connect($servidor, $usuario, "root", $basededatos);

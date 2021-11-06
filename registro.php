@@ -48,7 +48,7 @@
 		$usu = $_POST['usuario'];
 		$pass = $_POST['contrasena'];
 		$usuario = "root";
-		$servidor = "db";
+		$servidor = "localhost";
 		$basededatos = "proyectophp";
 
 		$conexion = mysqli_connect($servidor, $usuario, "root", $basededatos);
